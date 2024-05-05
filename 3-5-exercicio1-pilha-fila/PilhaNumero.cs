@@ -87,26 +87,7 @@ namespace _3_5_exercicio1_pilha_fila
             }
         }
 
-        static void CompararTamanhos(PilhaNumero minhapilha1, PilhaNumero minhapilha2)
-        {
-            int tamanhoPilha1 = minhapilha1.quantidade();
-            int tamanhoPilha2 = minhapilha2.quantidade();
-
-            if (tamanhoPilha1 == tamanhoPilha2)
-            {
-                Console.WriteLine("As pilhas têm o mesmo tamanho.");
-            }
-            else if (tamanhoPilha1 > tamanhoPilha2)
-            {
-                Console.WriteLine("A pilha 1 é maior que a pilha 2.");
-            }
-            else
-            {
-                Console.WriteLine("A pilha 2 é maior que a pilha 1.");
-            }
-        }
-
-        public void Calcular()
+          public void Calcular()
         {
             Numero aux = topo;
             int size = this.quantidade();
